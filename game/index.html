@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>VELVET HOUR — a heist in three rooms</title>
+<style>
+  :root {
+    --ink: #0a0e17;
+    --panel: #131a26;
+    --gold: #ffc857;
+    --danger: #ff4d5e;
+    --safe: #4ce0c3;
+  }
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: #05070c;
+    overflow: hidden;
+    font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
+  }
+  #stage {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+  }
+  canvas {
+    display: block;
+    background: var(--ink);
+    box-shadow: 0 0 0 1px #1d2735, 0 30px 90px rgba(0, 0, 0, 0.8);
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+</style>
+</head>
+<body>
+  <div id="stage"><canvas id="screen" width="1280" height="720"></canvas></div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

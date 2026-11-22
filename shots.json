@@ -1,0 +1,6 @@
+[
+  { "name": "1-heist-room.jpg", "query": "?shot=room2-alarm&seed=1" },
+  { "name": "2-vault.jpg", "query": "?shot=room3-vault&seed=1" },
+  { "name": "3-reading-room.jpg", "query": "?shot=room1-smoke&seed=1" },
+  { "name": "4-caught.jpg", "query": "?shot=caught&seed=1" }
+]
